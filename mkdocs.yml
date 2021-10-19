@@ -1,0 +1,50 @@
+markdown_extensions:
+  - meta
+  - attr_list
+  - md_in_html
+
+site_name: Analytical MicroBioinformatics
+site_url: https://example.com/
+
+nav:
+  - Home: index.md
+  - News: news.md
+  - People:
+    - 'Team': 'people.md'
+    - 'Kevin Lamkiewicz, M. Sc.': 'people/kevin.md'
+    - 'Alexander Henoch, M. Sc.': 'people/alex.md'
+    - 'Gabriel Lencioni Lovate, M. Sc.' : 'people/gabriel.md'
+    - 'Sarah Krautwurst, M. Sc.': 'people/sarah.md'
+  - Publications: pubs.md
+  - Projects: projects.md
+
+theme:
+  name: material
+  logo: pics/group_logo.svg
+  palette: 
+    - scheme: default
+      primary: teal
+      accent: pink
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+    - scheme: slate
+      primary: teal
+      accent: pink
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+  language: en
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - toc.integrate
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/klamkiewicz
+    - icon: fontawesome/brands/github
+      link: https://github.com/klamkiew
